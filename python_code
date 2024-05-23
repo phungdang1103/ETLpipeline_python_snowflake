@@ -50,7 +50,7 @@ def transform_data(task_instance):
     df["period_begin_in_months"] = df['period_begin'].dt.month
     df["period_end_in_months"] = df['period_end'].dt.month
     
-    #let's map the month number to their respective month name.
+    # map the month number to their respective month name.
     month_dict = {
         "period_begin_in_months": {
             1 : "Jan",
